@@ -1,0 +1,32 @@
+version: '3.1'
+intents:
+- contact
+- content
+- debut
+- débouchés
+- formation
+- negatif
+- poursuite_etude
+responses:
+  utter_debut:
+  - text: Bonjour! Je suis la pour t'aider à trouver toutes les informations dont tu as besoin sur la licence Mathématiques appliqués aux sciences humaines et sociales
+  utter_formation:
+  - text: La formation est composée d'Economie, de Mathématiques et Informatique appliqués à l'économie ainsi qu'un tronc commun de comptétences transversales
+  utter_poursuite_etude:
+  - text: A la suite de la formation tu pourras poursuivre tes études en effectuant un master en Mathématiques, Infomatique , finance, Economie. Ou encore t'orienter vers des écolles de commerces
+  utter_contact:
+  - text: Pour plus d'infos, tu peux aller directement sur le site de la faculté de Valrose, prendre contact avec le prof réferrant de la formation(Anna.TYKHONENKO@univ-cotedazur.fr)
+  utter_content:
+  - text: Ravi d'avoir pu t'aider
+  utter_débouchés:
+  - text: "Après la formation, tu pourras pa exemple travailler dans: l'analyse et l'ingénierie finançières, les études actuarielles, l'étude et développement informatique "
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+actions:
+- utter_débouchés
+- utter_debut
+- utter_formation
+- utter_content
+- utter_poursuite_etude
+- utter_contact

@@ -1,0 +1,68 @@
+version: "3.1"
+nlu:
+- intent: debut
+  examples: |
+    - hey
+    - bonjour ca va ?
+    - slt
+    - hola
+    - hello
+    - bonjour
+    - salut
+    - bonsoir
+- intent: poursuite_etude
+  examples: |
+    - que peut on faire après la licence
+    - quelles sont les débouchés
+    - quelle master faire après
+    - quelles masters puis je faire après
+    - quelles sont les poursuites d'études
+    - quel master peut on faire apres
+- intent: formation
+  examples: |
+    - quelles cours sont proposés ?
+    - quelle est le contenu de la formation ?
+    - quelles cours vais-je suivre
+    - cours proposés ?
+    - contenu formation
+    - quelle matières sont enseignés ?
+- intent: débouchés
+  examples: |
+    - quelles métiers puis je faire avec cette licence
+    - quelles sont les métiers accessible après la licence
+    - quelles sont les débouchés professionelles
+    - que faire après la licence
+    - dans quoi peut on travailler après
+    - quelle secteur professionnelle puis-je travailler ensuite
+- intent: contact
+  examples: |
+    - qui contacter ?
+    - qui sont les responsables de la licence
+    - as-tu un contact de la licence
+    - comment contacter la faculté
+    - comment avoir plus d'informations
+    - correct
+- intent: negatif
+  examples: |
+    - non
+    - n
+    - pas du tout
+    - je ne pense pas
+    - ce n'est pas le cas
+    - pas vraiment
+- intent: content
+  examples: |
+    - parfait
+    - merci
+    - top
+    - super
+    - oui
+    - merci pour l'aide
+- intent: inscription
+  examples: |
+    - comment s'inscrire
+    - où s'inscrire
+    - quand peut on s'incrire
+    - quand commence les inscriptions
+    - dates des inscriptions
+    - merci pour l'aide

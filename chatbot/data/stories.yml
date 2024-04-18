@@ -1,0 +1,34 @@
+version: "3.1"
+
+stories:
+
+- story: aide miashs
+  steps:
+  - intent: debut
+  - action: utter_debut
+  - intent: formation
+  - action: utter_formation
+  - intent: débouchés
+  - action: utter_débouchés
+  - intent: contact
+  - action: utter_contact
+  - intent: content
+  - action: utter_content
+
+
+- story: interactive_story_1
+  steps:
+  - intent: debut
+  - action: utter_debut
+  - intent: formation
+  - action: utter_formation
+  - intent: débouchés
+  - action: utter_débouchés
+  - intent: poursuite_etude
+  - action: utter_poursuite_etude
+  - intent: contact
+  - action: utter_contact
+  - intent: content
+  - action: utter_debut
+  - intent: content
+  - action: utter_content
